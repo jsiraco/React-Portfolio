@@ -4,6 +4,7 @@ import { Footer } from './components/footer';
 import { Header } from './components/header';
 import { Navbar } from './components/navbar';
 import { Project } from './components/project';
+import { ProjectCards } from './components/projectCard';
 
 import './App.css';
 
@@ -16,6 +17,7 @@ function App() {
       </head>
       <Header />
       <Navbar />
+      <ProjectCards />
       <section className="hero hero-image ">
         <div className="hero-body">
         </div>
