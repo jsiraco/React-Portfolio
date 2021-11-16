@@ -15,8 +15,8 @@ export const Footer = () => {
                 <div className="content">
                     <h3 className="title">
                         <a href="mailto: developer.jsiraco@gmail.com" className="text-reset">Email |</a>
-                        <a href="https://github.com/jsiraco" className="text-reset" target="_blank">GitHub |</a>
-                        <a href="https://www.linkedin.com/in/jsiraco/" className="text-reset" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/jsiraco" className="text-reset" target="_blank" rel="noreferrer">GitHub |</a>
+                        <a href="https://www.linkedin.com/in/jsiraco/" className="text-reset" target="_blank" rel="noreferrer">LinkedIn</a>
                     </h3>
                 </div>
             </div>

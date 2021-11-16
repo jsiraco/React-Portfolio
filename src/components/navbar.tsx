@@ -26,7 +26,7 @@ export const Navbar = () => {
                 <div className="buttons">
                     {/* <!-- Resume --> */}
                     <a className="button is-success" href="./assets/Resume-Josef-Siraco.pdf"
-                        download="Jsiraco_Resume" target="_blank">
+                        download="Jsiraco_Resume" target="_blank" rel="noreferrer">
                         <strong>Resume</strong>
                     </a>
                 </div>

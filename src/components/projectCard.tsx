@@ -9,7 +9,7 @@ export const ProjectCards = (props: any) => {
                 <header className="card-header">
                     <p className="card-header-title">
                         {/* <!-- Title is a link to the repository --> */}
-                        <a href="https://github.com/jsiraco/Enlightenment" target="_blank">
+                        <a href="https://github.com/jsiraco/Enlightenment" target="_blank" rel="noreferrer">
                             {props.title}
                         </a>
                     </p>
@@ -17,8 +17,8 @@ export const ProjectCards = (props: any) => {
                 <div className="card-image">
                     <figure className="image">
                         {/* <!-- Image is a link to the live site --> */}
-                        <a href="https://jsiraco.github.io/Enlightenment/" target="_blank">
-                            <img src="./assets/images/Enlightenment-Screenshot.png"
+                        <a href="https://jsiraco.github.io/Enlightenment/" target="_blank" rel="noreferrer">
+                            <img src={`${`${props.img}`}`}
                                 alt={`${props.alt}`}></img>
                         </a>
                     </figure>
