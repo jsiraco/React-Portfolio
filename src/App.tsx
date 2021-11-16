@@ -1,4 +1,5 @@
 import React from 'react';
+import 'bulma/css/bulma.min.css';
 import { Content } from './components/content';
 import { Footer } from './components/footer';
 import { Header } from './components/header';
@@ -10,54 +11,59 @@ import './App.css';
 
 const projectsInfo = [
   {
-      title: "Enlightenment",
-      img: "",
-      alt: "Cards and stuff",
-      tech: "jQuery, Bulma, Javascript, CSS"
+    title: "Enlightenment",
+    img: "",
+    alt: "Cards and stuff",
+    tech: "jQuery, Bulma, Javascript, CSS"
   },
   {
-      title: "Weather Teacker",
-      img: "",
-      alt: "Cards and stuff",
-      tech: "jQuery, Bulma, Javascript, CSS"
+    title: "Weather Teacker",
+    img: "",
+    alt: "Cards and stuff",
+    tech: "jQuery, Bulma, Javascript, CSS"
   },
   {
-      title: "HTML Team Gen",
-      img: "",
-      alt: "Cards and stuff",
-      tech: "jQuery, Bulma, Javascript, CSS"
+    title: "HTML Team Gen",
+    img: "",
+    alt: "Cards and stuff",
+    tech: "jQuery, Bulma, Javascript, CSS"
   },
   {
-      title: "You Won't Check",
-      img: "",
-      alt: "Cards and stuff",
-      tech: "jQuery, Bulma, Javascript, CSS"
+    title: "You Won't Check",
+    img: "",
+    alt: "Cards and stuff",
+    tech: "jQuery, Bulma, Javascript, CSS"
   },
   {
-      title: "Persist",
-      img: "",
-      alt: "Cards and stuff",
-      tech: "jQuery, Bulma, Javascript, CSS"
+    title: "Persist",
+    img: "",
+    alt: "Cards and stuff",
+    tech: "jQuery, Bulma, Javascript, CSS"
   },
 ];
 
 function App() {
   return (
     <div className="App">
-      <head>
-        <title>Portfolio.js</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"></link>
-      </head>
       <Header />
       <Navbar />
-      {projectsInfo.map((project) => 
-      <ProjectCards title={project.title} img={project.img} alt={project.alt} tech={project.tech} />
-      )}
-
       <section className="hero hero-image ">
         <div className="hero-body">
         </div>
       </section>
+      {projectsInfo.map((project) =>
+        <div className="columns" id="Work">
+          <div className="column is-1">
+            {/* <!-- empty --> */}
+          </div>
+          <div className="columns" id="Work">
+            <div className="column is-8">
+              {/* <!-- Image Cards --> */}
+              {/* <ProjectCards title={project.title} img={project.img} alt={project.alt} tech={project.tech} /> */}
+            </div>
+          </div>
+        </div>
+      )}
       <Content />
       <Project />
       <Footer />
