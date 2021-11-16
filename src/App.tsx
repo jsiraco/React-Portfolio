@@ -8,6 +8,39 @@ import { ProjectCards } from './components/projectCard';
 
 import './App.css';
 
+const projectsInfo = [
+  {
+      title: "Enlightenment",
+      img: "",
+      alt: "Cards and stuff",
+      tech: "jQuery, Bulma, Javascript, CSS"
+  },
+  {
+      title: "Weather Teacker",
+      img: "",
+      alt: "Cards and stuff",
+      tech: "jQuery, Bulma, Javascript, CSS"
+  },
+  {
+      title: "HTML Team Gen",
+      img: "",
+      alt: "Cards and stuff",
+      tech: "jQuery, Bulma, Javascript, CSS"
+  },
+  {
+      title: "You Won't Check",
+      img: "",
+      alt: "Cards and stuff",
+      tech: "jQuery, Bulma, Javascript, CSS"
+  },
+  {
+      title: "Persist",
+      img: "",
+      alt: "Cards and stuff",
+      tech: "jQuery, Bulma, Javascript, CSS"
+  },
+];
+
 function App() {
   return (
     <div className="App">
@@ -17,7 +50,10 @@ function App() {
       </head>
       <Header />
       <Navbar />
-      <ProjectCards />
+      {projectsInfo.map((project) => 
+      <ProjectCards title={project.title} img={project.img} alt={project.alt} tech={project.tech} />
+      )}
+
       <section className="hero hero-image ">
         <div className="hero-body">
         </div>

@@ -1,8 +1,33 @@
 import React from "react";
 
-export const ProjectCards = () => {
+
+export const ProjectCards = (props: any) => {
 
     return (
-        <h1>hello world</h1>
+        <div className="card is-fullwidth">
+            <header className="card-header">
+                <p className="card-header-title">
+                    {/* <!-- Title is a link to the repository --> */}
+                    <a href="https://github.com/jsiraco/Enlightenment" target="_blank">
+                        {props.title}
+                    </a>
+                </p>
+            </header>
+            <div className="card-image">
+                <figure className="image">
+                    {/* <!-- Image is a link to the live site --> */}
+                    <a href="https://jsiraco.github.io/Enlightenment/" target="_blank">
+                        <img src="./assets/images/Enlightenment-Screenshot.png"
+                            alt={`${props.alt}`}></img>
+                    </a>
+                </figure>
+            </div>
+            <footer className="card-footer">
+                {/* <!-- Skills & technologies used in application --> */}
+                <p className="subtitle is-small">
+                    {props.tech}
+                </p>
+            </footer>
+        </div>
     )
 }
