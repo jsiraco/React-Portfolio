@@ -10,8 +10,16 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <head>
+        <title>Portfolio.js</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"></link>
+      </head>
       <Header />
       <Navbar />
+      <section className="hero hero-image ">
+        <div className="hero-body">
+        </div>
+      </section>
       <Content />
       <Project />
       <Footer />
