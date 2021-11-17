@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Navbar = () => {
+export const Navbar = (props:any) => {
 
     return (
         <nav className="navbar is-black" role="navigation" aria-label="main navigation">
@@ -25,8 +25,8 @@ export const Navbar = () => {
             <div className="navbar-item">
                 <div className="buttons">
                     {/* <!-- Resume --> */}
-                    <a className="button is-success" href="./assets/Resume-Josef-Siraco.pdf"
-                        download="Jsiraco_Resume" target="_blank" rel="noopener noreferrer">
+                    <a className="button is-success" href={props.resume}
+                        target="_blank" rel="noopener noreferrer">
                         <strong>Resume</strong>
                     </a>
                 </div>
