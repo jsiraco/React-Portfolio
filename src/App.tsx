@@ -1,11 +1,11 @@
 import React from 'react';
 import 'bulma/css/bulma.min.css';
 
-import enlightenment from "./enlightenment.png";
-import codeQuiz from "./codeQuiz.png";
-import persist from "./persist.png";
-import portfolioV3 from "./portfolioV3.png";
-import teamProfile from "./teamProfile.png";
+import enlightenment from "./static/enlightenment.png";
+import codeQuiz from "./static/codeQuiz.png";
+import persist from "./static/persist.png";
+import portfolioV3 from "./static/portfolioV3.png";
+import teamProfile from "./static/teamProfile.png";
 
 import JSResume from "./static/resumeJS.pdf"
 
