@@ -6,6 +6,7 @@ import codeQuiz from "./static/codeQuiz.png";
 import persist from "./static/persist.png";
 import portfolioV3 from "./static/portfolioV3.png";
 import teamProfile from "./static/teamProfile.png";
+import portrait from "./static/portrait.png";
 
 import JSResume from "./static/resumeJS.pdf"
 
@@ -92,7 +93,7 @@ function App() {
       <Header />
       <Navbar resume={JSResume}/>
       <Caption id={captions[0].id} section={captions[0].section}/>
-      <Content />
+      <Content img={portrait} alt="Photo of Josef"/>
       <Caption id={captions[1].id} section={captions[1].section}/>
       <div className="columns is-multiline">
         <div className="column is-1"></div>
