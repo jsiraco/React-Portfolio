@@ -3,14 +3,9 @@ import React from "react";
 export const Content = () => {
 
     return (
-        <div className="columns" id="AboutMe">
-        <div className="column is-1">
-            {/* <!-- empty --> */}
-        </div>
+        <div className="columns">
         <div className="column is-2">
-            <div className="content">
-                <h2 className="caption">About Me |</h2>
-            </div>
+            {/* empty */}
         </div>
         {/* <!-- Bio --> */}
         <div className="column is-8">

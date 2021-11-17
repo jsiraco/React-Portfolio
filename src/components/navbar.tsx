@@ -6,7 +6,7 @@ export const Navbar = () => {
         <nav className="navbar is-black" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
             {/* <!-- Navbar burger element for mobile --> */}
-            <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false"
+            <a role="button" href="/" className="navbar-burger" aria-label="menu" aria-expanded="false"
                 data-target="navbarBasicExample">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -26,7 +26,7 @@ export const Navbar = () => {
                 <div className="buttons">
                     {/* <!-- Resume --> */}
                     <a className="button is-success" href="./assets/Resume-Josef-Siraco.pdf"
-                        download="Jsiraco_Resume" target="_blank" rel="noreferrer">
+                        download="Jsiraco_Resume" target="_blank" rel="noopener noreferrer">
                         <strong>Resume</strong>
                     </a>
                 </div>

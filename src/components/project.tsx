@@ -2,9 +2,6 @@ import React from "react";
 
 export const Project = () => {
 
-    // Take in a prop that makes a specific card larger than the others
-    const cardSize = null;
-
     return (
         <div className="columns" id="Work">
             <div className="column is-1">
