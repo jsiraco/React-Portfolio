@@ -1,10 +1,14 @@
 import React from 'react';
 import 'bulma/css/bulma.min.css';
+
+import enlightenment from "./enlightenment.png";
+import codeQuiz from "./codeQuiz.png";
+import persist from "./persist.png";
+
 import { Content } from './components/content';
 import { Footer } from './components/footer';
 import { Header } from './components/header';
 import { Navbar } from './components/navbar';
-// import { Project } from './components/project';
 import { ProjectCards } from './components/projectCard';
 import { Caption } from './components/caption';
 
@@ -31,7 +35,7 @@ const projectsInfo = [
     offset: 0,
     title: "Persist",
     gitHub: "https://github.com/OneFJef/Persist",
-    img: "http://placecorgi.com/260/180",
+    img: "./assets/images/Persist_screenshot.png",
     liveSite: "https://ancient-ravine-93786.herokuapp.com/",
     alt: "Screenshot of a time-budgeting app with saved tasks and a resposive daily planner",
     tech: "Sequelize, Node.js, Handlebars.js, Heroku"
@@ -41,7 +45,7 @@ const projectsInfo = [
     offset: 1,
     title: "Enlightenment",
     gitHub: "https://github.com/jsiraco/Enlightenment",
-    img: "http://placecorgi.com/260/180",
+    img: enlightenment,
     liveSite: "https://jsiraco.github.io/Enlightenment/",
     alt: "Screenshot with multiple images in a panel formation with like buttons",
     tech: "jQuery, Bulma, Javascript, APIs"
