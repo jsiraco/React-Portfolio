@@ -24,7 +24,7 @@ This work is protected under the MIT License: (https://opensource.org/licenses/M
 
 ## Usage
 
-
+![react-portfolio-screenshot](https://user-images.githubusercontent.com/83827081/142554088-342be057-db92-42bc-a894-34fb3209aff0.png)
 
 
 ## Questions
